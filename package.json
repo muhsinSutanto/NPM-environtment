@@ -1,0 +1,25 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "learn how to use npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+  },
+  "author": "muhsin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muhsinSutanto/NPM-environtment/issues"
+  },
+  "homepage": "https://github.com/muhsinSutanto/NPM-environtment#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "pretty-error": "^2.1.1"
+  }
+}

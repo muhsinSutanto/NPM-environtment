@@ -1,11 +1,13 @@
+require('dotenv').config()
+
 const express = require("express")
 const app = express()
-
 const bodyParser = require("body-parser")
 // body parser 
 //middle ware
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}))
+const PORT = process.env.PORT || 3000
 
 let todoList = [
     {
@@ -68,7 +70,7 @@ app.delete("/todos", (req, res) => {
 
 
 
-app.listen(3000,()=> {
-    console.log('app in port 3000')
+app.listen(PORT,()=> {
+    console.log(`app in port ${PORT}`)
 })
 

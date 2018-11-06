@@ -8,8 +8,7 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "repository": {
-  },
+  "repository": {},
   "author": "muhsin",
   "license": "ISC",
   "bugs": {
@@ -17,6 +16,7 @@
   },
   "homepage": "https://github.com/muhsinSutanto/NPM-environtment#readme",
   "dependencies": {
+    "dotenv": "^6.1.0",
     "express": "^4.16.4"
   },
   "devDependencies": {
